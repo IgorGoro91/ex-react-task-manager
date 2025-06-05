@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    
+    height: 10vh;
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    
+}
+nav a{
+    
+ text-decoration: none;
+ color: white;
+ margin: 50px;
+ font-size: 1.5rem;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+}
+p{
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 20px;
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+th, td {
+  padding: 15px 20px;
+  text-align: left;
+}
+
+thead {
+  background-color: #f95f62; /* colore simile a lightcoral */
+  color: white;
+}
+
+tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+
+td.to.do{
+    background-color: red;
+    
+}
+
+td.done{
+    background-color: green;
+}
+td.doing{
+    background-color: yellow;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"],
+textarea,
+select {
+  margin-top: 5px;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+button{
+    width: 150px;
+    padding: 10px;
+    background-color: lightsalmon;
+    border-radius: 10px;
+    
+    
+}
+
+
+
+
+
+
